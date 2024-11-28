@@ -1,0 +1,93 @@
+
+### README for Exploratory Data Analysis (EDA) Notebook
+
+---
+
+# Cardiographic Dataset - Exploratory Data Analysis (EDA)
+
+This repository contains a Jupyter Notebook titled **"Cardiographic.ipynb"**, where Exploratory Data Analysis (EDA) techniques are applied to a cardiographic dataset. The purpose of this notebook is to analyze, visualize, and derive insights to support data-driven decision-making.
+
+---
+
+## Features of the Notebook
+
+- **Data Preprocessing**: 
+  - Handling missing values.
+  - Renaming columns for clarity.
+  - Converting data types for analysis.
+
+- **Exploratory Data Analysis**:
+  - Summary statistics.
+  - Visualization of data distributions and relationships between features using:
+    - Pie charts
+    - Bar plots
+    - Scatter plots
+    - Heatmaps for correlation analysis.
+
+- **Categorical Analysis**:
+  - Custom visualization using a `plot_categorial` function to generate pie charts and bar plots for each categorical variable.
+
+- **Dimensionality Reduction**:
+  - Principal Component Analysis (PCA) implementation to reduce dataset dimensions for easier visualization and clustering.
+
+- **Clustering Analysis**:
+  - Agglomerative clustering with three clusters to identify patterns or groupings within the dataset.
+
+---
+
+## Getting Started
+
+### Prerequisites
+Ensure you have the following installed:
+- Python 3.8 or above
+- Jupyter Notebook or Jupyter Lab
+- Required Python libraries:
+  - `pandas`
+  - `numpy`
+  - `matplotlib`
+  - `seaborn`
+  - `sklearn`
+
+### How to Run
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Eshan16pandey/EDA1.git
+   cd EDA1
+   ```
+2. Open the notebook:
+   ```bash
+   jupyter notebook "Cardiographic.ipynb"
+   ```
+3. Follow the step-by-step analysis in the notebook.
+
+---
+
+## Project Structure
+
+- **`Cardiographic.ipynb`**: Main notebook containing the EDA workflow.
+- **Data Folder (if applicable)**: Ensure the dataset is placed in the same directory or update the path accordingly in the notebook.
+
+---
+
+## Results
+
+- Insightful visualizations to understand data trends.
+- Reduced dimensions for better interpretability using PCA.
+- Identified clusters within the dataset for further analysis.
+
+---
+
+## Acknowledgements
+
+- Created by **Eshan Pandey** as part of an EDA project.
+- Special thanks to mentors and resources from **ExcelR** for guidance.
+
+---
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+Feel free to contribute, suggest improvements, or use this notebook for your data analysis tasks. :)
